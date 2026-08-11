@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    font-family: "Montserrat", system-ui, sans-serif;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 82px;
+
+    margin-top: auto;
+    margin-bottom: 32px;
+}
+
+footer{
+    padding: 6px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+a.navigator{
+    padding: 8px 16px;
+    margin: 8px 5px;
+    font-size: 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    width: 360px;
+}
+
+.settings{
+    position: fixed;
+    bottom: 48px;
+    right: 18px;
+    font-size: 34px;
+    text-decoration: none;
+    line-height: 1;
+    z-index: 20;
+    opacity: 0.85;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.settings:hover{
+    opacity: 1;
+    transform: rotate(15deg);
+}
+
+form.cookies{
+    position: fixed;
+    bottom: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    margin: 0;
+    padding: 12px 48px 12px 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 9999;
+    font-size: 14px;
+}
+
+p.cookies{
+    margin: 0;
+    flex: 1;
+    line-height: 1.4;
+}
+
+a.cookies{
+    text-decoration: underline;
+}
+
+input.cookies{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+input.cookies:hover{
+    opacity: 1;
+}

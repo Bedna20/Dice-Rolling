@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-family: "Montserrat", system-ui, sans-serif;
+    min-height: 90vh;
+    padding: 20px 0;
+    margin: 8px 0;
+    text-align: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 82px;
+
+    margin-top: auto;
+    margin-bottom: 32px;
+}
+
+p.cookie{
+    margin: 0px 10vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+}
+
+.back{
+    position: fixed;
+    top: 36px;
+    left: 18px;
+    font-size: 36px;
+    text-decoration: none;
+    line-height: 1;
+    z-index: 20;
+    opacity: 0.85;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.back:hover{
+    opacity: 1;
+    transform: translateX(-3px);
+}
+
+footer{
+    padding: 6px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}

@@ -1,0 +1,265 @@
+body{
+    background: rgb(78, 63, 29);
+    color: white;
+}
+
+h1{
+    color: rgb(219, 184, 119);
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.25);
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.back{
+    color: white;
+}
+
+h2{
+    color: rgb(219, 184, 119);
+}
+
+.themeBtn{
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.themeBtn:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.themeBtn.active{
+    background: rgba(219, 184, 119, 0.2);
+    border-color: rgb(219, 184, 119);
+    box-shadow: 0 0 18px rgba(219, 184, 119, 0.35);
+}
+
+.nameInputs input{
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.nameInputs input:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#saveNames{
+    background: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+#saveNames:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+#saveNames:active{
+    background-color: rgb(150, 70, 30);
+}
+
+.winPoints input[type=number]{
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.winPoints input[type=number]:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.winPoints input[type=submit]{
+    background: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.winPoints input[type=submit]:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+.winPoints input[type=submit]:active{
+    background-color: rgb(150, 70, 30);
+}
+
+.resetSettings input[type=submit]{
+    background: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.resetSettings input[type=submit]:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+.resetSettings input[type=submit]:active{
+    background-color: rgb(150, 70, 30);
+}
+
+a.navigator{
+    background-color: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+a.navigator:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+a.navigator:active{
+    background-color: rgb(150, 70, 30);
+}
+
+.settings{
+    color: white;
+}
+
+.aboutPanel{
+    background: rgba(0, 0, 0, 0.25);
+    border: 1.5px solid rgb(120, 75, 45);
+}
+
+.aboutPanel p{
+    color: white;
+}
+
+form.cookies{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+a.cookies{
+    color: white;
+}
+
+a.cookies:hover{
+    color: rgb(254, 255, 185);
+}
+
+input.cookies{
+    color: white;
+}
+
+input.reset{
+    color: white;
+}
+
+.total{
+    color: white;
+}
+
+.winRate.high{
+    color: rgb(132, 204, 22);
+}
+
+.winRate.medium{
+    color: rgb(250, 204, 21);
+}
+
+.winRate.low{
+    color: rgb(239, 68, 68);
+}
+
+.win{
+    color: rgb(132, 204, 22);
+}
+
+.draw{
+    color: rgb(180, 150, 120);
+}
+
+.lose{
+    color:  rgb(248, 113, 113);
+}
+
+.stats.streak{
+    color: rgb(180, 150, 120);
+}
+
+.stats.bestStreak{
+    color: rgb(78, 121, 0);
+}
+
+p.cookie{
+    color: white;
+}
+
+input.PVC{
+    background-color: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+input.PVC:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+input.PVC:active{
+    background-color: rgb(150, 70, 30);
+}
+
+input.PVC:disabled{
+    background-color: rgb(45, 30, 22);
+    color: gray;
+}
+
+.dice{
+    color: black;
+    border: 1.5px solid rgb(100, 100, 100);
+    background: linear-gradient(135deg, white, rgb(119, 119, 119));
+
+    box-shadow:
+        4px 4px 0 rgb(133, 133, 133),
+        inset 0 0 8px rgba(255, 255, 255, 0.116);
+}
+
+.score{
+    color: white;
+}
+
+.turn{
+    color: rgb(180, 150, 120);
+}
+
+.result.player{
+    color: rgb(132, 204, 22);
+}
+
+.result.pc{
+    color: rgb(248, 113, 113);
+}
+
+.result.draw{
+    color: rgb(180, 150, 120);
+}
+
+input.PVP{
+    background-color: rgb(180, 85, 40);
+    border: 1.5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+input.PVP:hover{
+    background-color: rgb(205, 105, 50);
+}
+
+input.PVP:active{
+    background-color: rgb(150, 70, 30);
+}
+
+input.PVP:disabled{
+    background-color: rgb(45, 30, 22);
+    color: gray;
+}
+
+.result.PVP{
+    color: rgb(132, 204, 22);
+}

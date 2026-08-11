@@ -1,0 +1,185 @@
+@keyframes popIn{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes showDice{
+    from{
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes showScore{
+    from{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes showResult{
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes showTurn{
+    from{
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+body{
+    background-color: black;
+    font-family: "Montserrat", system-ui, sans-serif;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 82px;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer{
+    padding: 6px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+input.PVC{
+    padding: 8px 16px;
+    margin: 8px 5px;
+    font-size: 32px;
+    border-radius: 5px;
+}
+
+.back{
+    position: fixed;
+    top: 36px;
+    left: 18px;
+    font-size: 36px;
+    text-decoration: none;
+    line-height: 1;
+    z-index: 20;
+    opacity: 0.85;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.back:hover{
+    opacity: 1;
+    transform: translateX(-3px);
+}
+
+.dice{
+    width: 160px;
+    height: 160px;
+    margin: 12px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    font-size: 96px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.dice.animate{
+    animation: showDice 0.5s ease-out forwards;
+}
+
+.playerdice.animate{
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+.pcdice.animate{
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.score{
+    margin: 0px 10px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 48px;
+}
+
+.score.animate{
+    animation: showDice 0.1s ease-out forwards;
+    animation-delay: 1.4s;
+    opacity: 0;
+}
+
+.turn{
+    font-size: 32px;
+}
+
+.turn.animate{
+    animation: popIn 0.4s ease-out;
+
+    animation: showTurn 0.1s ease-out forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+}
+
+.result{
+    animation: popIn 0.4s ease-out;
+
+    animation: showResult 0.2s ease-out forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+}
+
+.result.player{
+    font-size: 56px;
+}
+
+.result.pc{
+    font-size: 56px;
+}
+
+.result.draw{
+    font-size: 56px;
+}

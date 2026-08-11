@@ -1,10 +1,12 @@
 
 # Dice roller
 
-Simple game made primarily using PHP
+Simple game made primarily using PHP and css
 
 ## How to play
 You can play the game here: [Dice Roller](https://dice-roller.unaux.com/)
+
+If you want to run this game localy you need to install xampp, then put the source code from github in the htdocs folder and then access it in browser at localhost
 
 ## About game
 
